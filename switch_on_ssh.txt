@@ -1,0 +1,16 @@
+nikitaduzhnov@MacBook-Pro-Nikita ~ % ssh-keygen -t ed25519 -C "github-key" -f ~/.ssh/github_ed25519
+nikitaduzhnov@MacBook-Pro-Nikita git-course % git remote -v
+origin  https://github.com/LLIALLIJLblK/git-course.git (fetch)
+origin  https://github.com/LLIALLIJLblK/git-course.git (push)
+nikitaduzhnov@MacBook-Pro-Nikita git-course % git remote set-url origin git@github.com:LLIALLIJLblK/git-course.git
+nikitaduzhnov@MacBook-Pro-Nikita git-course % git remote -v
+origin  git@github.com:LLIALLIJLblK/git-course.git (fetch)
+origin  git@github.com:LLIALLIJLblK/git-course.git (push)
+nikitaduzhnov@MacBook-Pro-Nikita git-course % 
+
+
+
+
+
+
+

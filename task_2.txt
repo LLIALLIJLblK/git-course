@@ -1,0 +1,36 @@
+/usr/src/app$ git clone repos/git-user code-user
+Cloning into 'code-user'...
+done.
+/usr/src/app$ ls
+code-teacher  code-user  Makefile  package.json  repos  __tests__
+/usr/src/app$ cd code-user/
+/usr/src/app/code-user$ nano hexlet.txt 
+/usr/src/app/code-user$ nano index.html 
+/usr/src/app/code-user$ git add .
+/usr/src/app/code-user$ git commit -m "добавления и исправления"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'tirion@9b7c9f15b420.(none)')
+/usr/src/app/code-user$ git config --global user.email "duzhnov.nikita55@mail.ru"
+/usr/src/app/code-user$ git config --global user.name "Nikita Duzhnov"
+/usr/src/app/code-user$ git commit -m "добавления и исправления"
+[main 39dab6a] добавления и исправления
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+/usr/src/app/code-user$ git push 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 433 bytes | 433.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+

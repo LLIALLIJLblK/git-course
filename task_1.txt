@@ -1,0 +1,26 @@
+## КОМАДНЫ ИЗ ПЕРВОЙ ЛАБЫ
+/usr/src/app$ ls
+code-teacher  code-user  Makefile  package.json  repos  __tests__
+/usr/src/app$ cd code-user/
+/usr/src/app/code-user$ ls
+README.md
+/usr/src/app/code-user$ touch hexlet.txt
+/usr/src/app/code-user$ nano hexlet.txt 
+/usr/src/app/code-user$ ls
+hexlet.txt  README.md
+/usr/src/app/code-user$ touch index.html
+/usr/src/app/code-user$ nano index.html 
+/usr/src/app/code-user$ git add hexlet.txt 
+/usr/src/app/code-user$ git add index.html 
+/usr/src/app/code-user$ git reset
+/usr/src/app/code-user$ git add hexlet.txt 
+/usr/src/app/code-user$ git commit -m "add hexlet"
+[main caad01e] add hexlet
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hexlet.txt
+/usr/src/app/code-user$ git add index.html 
+/usr/src/app/code-user$ git commit -m "add index"
+[main 4861e02] add index
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+/usr/src/app/code-user$ 
